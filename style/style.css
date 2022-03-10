@@ -1,11 +1,14 @@
+*{  
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 .main-page{
     background-color: #1f1f1f;
 }
 
 .main-nav__item{
-    margin-left: -1%;
-    margin-top: -1.3%;
-    margin-right: -7px;
     background-color: #161515;
     color: white;
     font-size: 20px;
@@ -13,28 +16,6 @@
     text-align: right;
 }
 
-.logo{
-    margin-top: 0.7%;
-    text-align: left;
-    transition: transform .2s;  
-    display: inline-block; 
-    padding: 0px;
-    max-width: 3%; 
-    position:absolute;
-    width:100px;
-    top:-5px;
-    left:5px;
-    
-}
-
-.logo a{
-    color: White;
-    text-decoration: none;
-}
-
-.logo:hover{
-    transform: scale(1.3);
-}
 
 .main-nav__item--signup{
     transition: transform .2s;  
