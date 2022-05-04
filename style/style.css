@@ -1,68 +1,28 @@
-*{  
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+/* Headers */
+.highlighted-text:hover{
+    color: #DD4A48 !important
+};
+
+#header img{
+    width: 110px;
 }
 
-.main-page{
-    background-color: #1f1f1f;
+/* Footers*/
+#footer{
+    background: linear-gradient(90deg, #1A3C40, #1D5C63);
 }
-
-.main-nav__item{
-    background-color: #161515;
+#footer a{
     color: white;
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-    text-align: right;
-}
-
-
-.main-nav__item--signup{
-    transition: transform .2s;  
-    display: inline-block; 
-    padding: 15px;
-    
-}
-
-.main-nav__item--signup a{
-    color: White;
     text-decoration: none;
 }
 
-.main-nav__item--signup:hover{
-    transform: scale(1.3);
-}
+  /* mouse over link */
+  #footer a:hover {
+    color: #EDE6DB;
+    text-decoration: wavy;
+  }
 
-.main-nav__item--signup a:active{
-    color: tomato;
-}
-
-.main-nav__item--login{
-    transition: transform .2s;  
-    display: inline-block; 
-    padding: 15px;
-}
-
-.main-nav__item--login a{
-    color: black;
-    padding: 10px;
-    border-radius: 100px;
-    background-color: white;
-    text-decoration: none;
-}
-
-.main-nav__item--login:hover{
-    transform: scale(1.3);
-}
-
-.main-nav__item--login a:active{
-    background-color: tomato;
-}
-
-.title{ 
-    color: lightblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 35px;
-    font-weight: bold;
-    text-align: center;
-}
+  /* selected link */
+ #footer a:active {
+    color: #417D7A;
+  }
